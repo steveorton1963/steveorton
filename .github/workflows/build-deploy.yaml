@@ -5,7 +5,7 @@ on:
     types:
       - closed
 env:
-  REPO_NAME: {steveorton1963}/cit350-{sdo}-bb
+  REPO_NAME: steveorton1963/cit350-{sdo}-bb
 
 jobs:
   if_merged:
