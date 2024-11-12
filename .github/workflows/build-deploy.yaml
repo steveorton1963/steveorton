@@ -5,7 +5,7 @@ on:
     types:
       - closed
 env:
-  REPO_NAME: {username}/itm350-{username}-bb
+  REPO_NAME: {steveorton1963}/itm350-{sdo}-bb
 
 jobs:
   if_merged:
@@ -44,3 +44,5 @@ jobs:
           tag_with_sha: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          
+          
